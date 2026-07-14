@@ -55,4 +55,4 @@ Built it because I wanted an assistant I actually own and can run offline. Costs
 **Working with:** TypeScript · Python · React/Next.js · Node/Express · Postgres · Prisma ·
 Docker · PyTorch
 
-**Reach me:** 24ug1byai146@bmsit.in
+**Reach me:** [LinkedIn](https://www.linkedin.com/in/atul-dhull-dev1312/) · 24ug1byai146@bmsit.in
