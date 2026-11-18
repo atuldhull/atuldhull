@@ -46,7 +46,8 @@ integrated the three modules
 
 ## EventFlow · multi-tenant event platform
 
-[![CI](https://github.com/atuldhull/eventflow/actions/workflows/ci.yml/badge.svg)](https://github.com/atuldhull/eventflow/actions/workflows/ci.yml)
+[![Live](https://img.shields.io/website?url=https%3A%2F%2Feventflow-erua.onrender.com&up_message=live&down_message=down&style=flat-square&label=demo&labelColor=171717)](https://eventflow-erua.onrender.com)
+![Private](https://img.shields.io/badge/source-private-A66BFF?style=flat-square&labelColor=171717)
 ![Unit tests](https://img.shields.io/badge/unit%20tests-788-FFF21A?style=flat-square&labelColor=171717)
 ![Browser suites](https://img.shields.io/badge/browser%20suites-attendee%20%C2%B7%20organizer%20%C2%B7%20platform-FFF21A?style=flat-square&labelColor=171717)
 ![Docker](https://img.shields.io/badge/deploy-Docker-A66BFF?style=flat-square&labelColor=171717)
@@ -66,9 +67,9 @@ Every screen was just redesigned. Browser suites click through the real UI as an
 organizer and a platform admin, so the redesign had to prove it broke nothing. Not deployed yet;
 the production image is tested the way Zoho Catalyst runs it.
 
-<img src="https://raw.githubusercontent.com/atuldhull/eventflow/main/docs/screenshots/landing-dark-1440-top.png" alt="EventFlow landing page in the charcoal, lemon and lavender redesign" width="720">
+<img src="assets/eventflow-landing.png" alt="EventFlow landing page in the charcoal, lemon and lavender redesign" width="720">
 
-[source](https://github.com/atuldhull/eventflow)
+**[eventflow-erua.onrender.com](https://eventflow-erua.onrender.com)** · source is private; happy to walk through it
 
 ## Math Collective · competitive math platform for universities
 
