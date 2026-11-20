@@ -48,14 +48,15 @@ integrated the three modules
 
 [![Live](https://img.shields.io/website?url=https%3A%2F%2Feventflow-erua.onrender.com&up_message=live&down_message=down&style=flat-square&label=demo&labelColor=171717)](https://eventflow-erua.onrender.com)
 ![Private](https://img.shields.io/badge/source-private-A66BFF?style=flat-square&labelColor=171717)
-![Unit tests](https://img.shields.io/badge/unit%20tests-788-FFF21A?style=flat-square&labelColor=171717)
+![Unit tests](https://img.shields.io/badge/unit%20tests-976-FFF21A?style=flat-square&labelColor=171717)
 ![Browser suites](https://img.shields.io/badge/browser%20suites-attendee%20%C2%B7%20organizer%20%C2%B7%20platform-FFF21A?style=flat-square&labelColor=171717)
 ![Docker](https://img.shields.io/badge/deploy-Docker-A66BFF?style=flat-square&labelColor=171717)
 
-Enterprises own organizations, organizations run events, and each gets a subdomain site it can
-edit visually. Registration, Razorpay payments with a 15-minute seat hold, signed QR tickets that
-open offline, door check-in from a phone, refunds and certificates. 199 API routes, 94 pages,
-44 Prisma models.
+Enterprises own organizations, organizations run events, and each gets a website it can edit
+visually. Registration, Razorpay or direct UPI payments with a 15-minute seat hold, an automatic
+waitlist that offers freed seats to the next in line, signed QR tickets that open offline, door
+check-in from a phone, reminders, refunds, certificates and a shareable record of events
+attended. 210 API routes, 96 pages, 44 Prisma models.
 
 `Next.js 16` `TypeScript` `Prisma` `PostgreSQL` `NextAuth` `Tailwind` `Docker`
 
@@ -64,8 +65,8 @@ in another. I found out the expensive way that "every route remembers to check" 
 human keeps badly: three admin routes didn't. The boundary is an assertion now, not a convention.
 
 Every screen was just redesigned. Browser suites click through the real UI as an attendee, an
-organizer and a platform admin, so the redesign had to prove it broke nothing. Not deployed yet;
-the production image is tested the way Zoho Catalyst runs it.
+organizer and a platform admin, so the redesign had to prove it broke nothing. It runs live on
+Render from the same production Docker image, with a Neon database.
 
 <img src="assets/eventflow-landing.png" alt="EventFlow landing page in the charcoal, lemon and lavender redesign" width="720">
 
