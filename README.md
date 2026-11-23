@@ -47,7 +47,7 @@ integrated the three modules
 ## EventFlow · multi-tenant event platform
 
 [![Live](https://img.shields.io/website?url=https%3A%2F%2Feventflow-erua.onrender.com&up_message=live&down_message=down&style=flat-square&label=demo&labelColor=171717)](https://eventflow-erua.onrender.com)
-![Private](https://img.shields.io/badge/source-private-A66BFF?style=flat-square&labelColor=171717)
+[![Source](https://img.shields.io/badge/source-GitHub-A66BFF?style=flat-square&labelColor=171717)](https://github.com/atuldhull/eventflow)
 ![Unit tests](https://img.shields.io/badge/unit%20tests-976-FFF21A?style=flat-square&labelColor=171717)
 ![Browser suites](https://img.shields.io/badge/browser%20suites-attendee%20%C2%B7%20organizer%20%C2%B7%20platform-FFF21A?style=flat-square&labelColor=171717)
 ![Docker](https://img.shields.io/badge/deploy-Docker-A66BFF?style=flat-square&labelColor=171717)
@@ -70,11 +70,10 @@ Render from the same production Docker image, with a Neon database.
 
 <img src="assets/eventflow-landing.png" alt="EventFlow landing page in the charcoal, lemon and lavender redesign" width="720">
 
-**[eventflow-erua.onrender.com](https://eventflow-erua.onrender.com)** · source is private; happy to walk through it
+**[eventflow-erua.onrender.com](https://eventflow-erua.onrender.com)** · [source](https://github.com/atuldhull/eventflow)
 
 ## Math Collective · competitive math platform for universities
 
-[![CI](https://github.com/atuldhull/math-collective/actions/workflows/ci.yml/badge.svg)](https://github.com/atuldhull/math-collective/actions/workflows/ci.yml)
 [![Live](https://img.shields.io/website?url=https%3A%2F%2Fmath-collective.onrender.com&up_message=live&down_message=down&style=flat-square&label=demo&labelColor=171717)](https://math-collective.onrender.com)
 ![Tests](https://img.shields.io/badge/tests-1%2C195-FFF21A?style=flat-square&labelColor=171717)
 ![License](https://img.shields.io/badge/license-MIT-A66BFF?style=flat-square&labelColor=171717)
@@ -88,7 +87,7 @@ a client can't fake a fast answer. And because a leak between two universities w
 worst possible bug, tenant isolation is pinned by an invariant test rather than trusted to each
 route to remember.
 
-**[math-collective.onrender.com](https://math-collective.onrender.com)** · [source](https://github.com/atuldhull/math-collective) · led development, 189 of 194 commits
+**[math-collective.onrender.com](https://math-collective.onrender.com)** · led development, 240 of 254 commits
 
 ## ASTRA · aerial detection with a tamper-evident audit trail
 
