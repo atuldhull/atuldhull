@@ -89,23 +89,27 @@ route to remember.
 
 **[math-collective.onrender.com](https://math-collective.onrender.com)** · led development, 240 of 254 commits
 
-## ASTRA · aerial detection with a tamper-evident audit trail
+## ASTRA Proving Ground · GPS jamming and spoofing test lab for drones
 
-[![CI](https://github.com/atuldhull/Astra_Project/actions/workflows/ci.yml/badge.svg?branch=release%2F3.0)](https://github.com/atuldhull/Astra_Project/actions/workflows/ci.yml)
-![Tests](https://img.shields.io/badge/tests-46-FFF21A?style=flat-square&labelColor=171717)
-![mAP](https://img.shields.io/badge/mAP%4050%3A95-0.29-orange?style=flat-square&labelColor=171717)
+![Real flights](https://img.shields.io/badge/real%20flights%20checked-497-FFF21A?style=flat-square&labelColor=171717)
+![False alarms](https://img.shields.io/badge/held--out%20false%20alarms-0%20in%207.2h-FFF21A?style=flat-square&labelColor=171717)
+![License](https://img.shields.io/badge/license-Apache--2.0-A66BFF?style=flat-square&labelColor=171717)
 
-Detects aircraft in aerial imagery, and makes it hard to lie about what was detected afterwards:
-every detection is Ed25519-signed, and the log is a SHA-256 hash chain you can re-walk from
-genesis to prove no row was edited.
+Flies your real ArduPilot or PX4 firmware and parameters in simulation through 7 GNSS attack
+models, tells you where the airframe fails, catches spoofing the stock autopilot misses, and
+issues an Ed25519-signed report bound to exactly what was tested. Runs offline on one laptop.
 
-`Python` `YOLOv11n` `FastAPI` `React`
+`Python` `ArduPilot / PX4 SITL` `Docker` `Lua` `MAVLink`
 
-That orange badge is deliberate. mAP@50:95 of 0.29 is a weak detector: it misses about half of
-what's there and fails outright on one of eight classes. The bottleneck is training data. The
-provenance layer is the part I'd defend, and it's the part the tests actually cover.
+What it measured: the stock autopilot noticed slow drag-off spoofing 0 of 30 times. ASTRA's
+consistency monitor caught 84 of 95 held-out slow spoofs (stock: 9) with no false alarms in
+7.2 held-out hours, and also runs onboard as an ArduPilot Lua script. Checked on 497 real PX4
+flights, where it went from 4.4% false accusations to 1 in 339 after fixes scored on fresh
+flights. A spoofer that fakes position and velocity consistently can't be caught with GPS and
+IMU alone, by this or any software, so ASTRA reports that as a margin instead of claiming it.
 
-[source](https://github.com/atuldhull/Astra_Project)
+[source (v4)](https://github.com/atuldhull/Astra_Project/tree/v4) · earlier version, aerial
+detection with a signed audit trail: [v3.0-final](https://github.com/atuldhull/Astra_Project/tree/v3.0-final)
 
 ## JARVIS · local-first voice assistant
 
